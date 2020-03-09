@@ -48,3 +48,7 @@ EXPOSE 8000
 EXPOSE 9000
 EXPOSE 5000
 EXPOSE 8888
+
+RUN mkdir -p /home/brzegowski_1167272/projekt
+
+VOLUME [ "/home/brzegowski_1167272/projekt" ]

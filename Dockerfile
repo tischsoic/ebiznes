@@ -52,3 +52,5 @@ EXPOSE 8888
 RUN mkdir -p /home/brzegowski_1167272/projekt
 
 VOLUME [ "/home/brzegowski_1167272/projekt" ]
+
+RUN ln -s /usr/lib/scala/bin/scala bin/scala
